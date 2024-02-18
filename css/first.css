@@ -79,7 +79,7 @@ button:hover{
         text-decoration: none;
         border-radius: 50%;
         contain: content;
-        padding: auto;
+        padding: 10px;
       }
       
       /* Add a hover effect if you want */
