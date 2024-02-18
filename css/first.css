@@ -5,15 +5,15 @@
     box-sizing: border-box;
 }
 body{
-    margin: 20px;
+    margin: 2%;
     flex-wrap: wrap;
     
 }
 #all{
     margin: auto;
     text-align: center;
-    padding: 10px;
-    height: 100%;
+    padding: auto;
+    height:auto;
     width: 100%;
     border: 0.5rem snow seagreen;
     background-color: rgb(203, 218, 170);
@@ -25,9 +25,8 @@ body{
 
 img{
    width: 60%;
-   height: 60%;
-   padding: 10PX;
-border:  2px;;
+   height: auto ;
+border:  1px;;
 image-resolution: 100%;
 border-radius: 50%;
 
@@ -36,11 +35,10 @@ border-radius: 50%;
     
 
 button{
-    height: 50%;
+    height: auto ;
     width:80%;
-    padding: 10px;
     background-color: rgb(136, 173, 58);
-    border:0.5rem outset;
+    border:0.5vm outset;
     border-color: brown;
     border-radius: 40px;
     
@@ -51,23 +49,21 @@ button:hover{
     .topn{
         text-align: center;
         text-decoration: solid;
-        font-size: large;
         color: rgb(32, 27, 17);
-        font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 2em;
+        font-size: 80%;
     }
     .top{
        
-        padding: 1px;
-        margin: auto;
+       
+        margin: 0px;
         text-align: center;
     
     }
     .allbutton{
        margin: auto; 
        width: 100%;
-      padding: 10px;
+      padding: 0px;
     }
     header{
         text-align: center;
@@ -77,11 +73,12 @@ button:hover{
     /* Style all font awesome icons */
     .fa {
         padding: 20px;
-        font-size: 50px;
-        width: 50px;
+        font-size: 0.5vm;
+        width: 40px;
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
+        contain: content;
       }
       
       /* Add a hover effect if you want */
