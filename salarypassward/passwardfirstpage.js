@@ -37,7 +37,7 @@ switch(now){
    case "271711": //ايمان سعد ابراهيم
    return "insalaryemppage/271711ادارة الانظمة.html";
    break;
-   case "794100": //حردان ستار محمد امين
+   case "749100": //حردان ستار محمد امين
    return "insalaryemppage/794100ادارة الانظمة.html";
    break;
    case "308517": //رادي فرج بنو 
