@@ -36,7 +36,7 @@ border-radius: 10%;
 #dod{
     text-align: center;
    width: 100%;
-   height: 40%;
+   height:auto;
    font: 1.5em outset ;
    background-color:white;
 }
@@ -56,9 +56,9 @@ border-radius: 10%;
     background-color: #cd5829;
     color: rgb(21, 20, 20);
     width: 80%;
-    height: 60%;
+    height: auto;
     padding-left: 20px;
-    font: 1.3em outset ;
+    font: 80% outset ;
   }
 
 
@@ -96,7 +96,7 @@ border-radius: 10%;
 
   }
   h2{
-    font: 1em outset;
+    font:80% outset;
   }
   /* Center the image and position the close button */
 .imgcontainer {
@@ -113,7 +113,7 @@ border-radius: 10%;
  .allstatment{
   margin: auto;
   text-align: center;
-  font: 1em sans-serif;
+  font: 80% sans-serif;
  }
 .monthname{
   background-color: rgb(205, 115, 115);
@@ -128,7 +128,7 @@ border-radius: 10%;
 .sheetname{
   border: 0.5em outset ;
   background-color: cloudflare;
-  font: 1.5em solid  ;
+  font: 80% solid  ;
 
 }
 .close{
