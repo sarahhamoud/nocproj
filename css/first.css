@@ -51,7 +51,7 @@ button:hover{
         text-decoration: solid;
         color: rgb(32, 27, 17);
         font-family: 'Courier New', Courier, monospace;
-        font-size: 80%;
+        font-size: 60%;
     }
     .top{
        
@@ -72,7 +72,7 @@ button:hover{
     }
     /* Style all font awesome icons */
     .fa {
-        padding: 20px;
+    
         font-size: 0.5vm;
         width: 40px;
         text-align: center;
