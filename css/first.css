@@ -74,12 +74,12 @@ button:hover{
     .fa {
     
         font-size: 0.5vm;
-        width: 80%;
+        width: 10%;
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
         contain: content;
-        padding :auto;
+        padding: auto;
       }
       
       /* Add a hover effect if you want */
