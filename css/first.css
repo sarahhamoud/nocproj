@@ -51,7 +51,7 @@ button:hover{
         text-decoration: solid;
         color: rgb(32, 27, 17);
         font-family: 'Courier New', Courier, monospace;
-        font-size: 60%;
+        font-size: 70%;
     }
     .top{
        
@@ -74,11 +74,12 @@ button:hover{
     .fa {
     
         font-size: 0.5vm;
-        width: 40px;
+        width: 80%;
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
         contain: content;
+        padding :auto;
       }
       
       /* Add a hover effect if you want */
