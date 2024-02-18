@@ -10,7 +10,7 @@ function myFunction() {
   function testnum(){
     var num = document.getElementById("dod");
     var now = num.value;
-    if (now === "IT1510")
+    if (now === "IT1010")
     {
       
  document.getElementById('id01').style.display='block';
