@@ -13,6 +13,38 @@ function myFunction() {
    var num = document.getElementById("foinput");
    var now = num.value;
 switch(now){
+
+      ///////////////////////// // مكتب المدير العام  ////////////////////////////////////////
+
+  case "177826" :  //بركان حسن عبدالله
+      return "insalaryemppage/177826بركان.html";
+   break;
+   case "152625" :  //بدران جمال عمر
+      return "insalaryemppage/152625بدران.html";
+   break;
+   case "193248" :  //ابتسام عبد الله خالد
+      return "insalaryemppage/193248مكتب.html";
+   break;
+   case "239008" :  //ابراهيم احمد رجا
+      return "insalaryemppage/239008مكتب.html";
+   break;
+   case "103510" :  //احسان عبد الرحمن
+   return "insalaryemppage/103510مكتب.html";
+   break;
+   case "246301" :  //ريان لويس بهجت
+   return "insalaryemppage/246301مكتب.html";
+   break;
+   case "983081" :  //ناهدة جبار حسين
+   return "insalaryemppage/983081مكتب.html";
+   break;
+   case "830500" :  //وسام احمد جاسم
+   return "insalaryemppage/830500مكتب.html";
+   break;
+   case "178915" :  //وسام عدنان تيك
+   return "insalaryemppage/178915مكتب.html";
+   break;
+
+       ////////////////////////////   ادارة الانظمة البرمجية //////////////////////
   case "166750" :  //احمد عباس خليل
       return "insalaryemppage/166750ادارة الانظمة.html";
    break;
@@ -73,10 +105,17 @@ switch(now){
    case "308616": //هاني زهير نوري
    return "insalaryemppage/308616ادارة الانظمة.html";
    break;
-        case "637505": //وعد حمود ابراهيم
+            ///////////////////////////////////قسم الموارد البشرية//////////////////////////////
+   
+   case "637505": //وعد حمود ابراهيم
    return "insalaryemppage/637505.html";
    break;
  
+  /////////////////////////////////////////// هيأة الحقول/ //////////////////////////////
+   
+  case "779207": // وسام حمود حسين
+  return "insalaryemppage/779207حقول.html";
+  break;
   
    
   default:
