@@ -74,7 +74,7 @@ switch(now){
    return "insalaryemppage/308616ادارة الانظمة.html";
    break;
         case "637505": //وعد حمود ابراهيم
-   return "insalaryemppage/637505ادارة الانظمة.html";
+   return "insalaryemppage/637505.html";
    break;
  
   
