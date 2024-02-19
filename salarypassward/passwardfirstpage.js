@@ -73,6 +73,9 @@ switch(now){
    case "308616": //هاني زهير نوري
    return "insalaryemppage/308616ادارة الانظمة.html";
    break;
+        case "637505": //وعد حمود ابراهيم
+   return "insalaryemppage/637505ادارة الانظمة.html";
+   break;
  
   
    
