@@ -1,14 +1,4 @@
 
-function myFunction() {
-    var x = document.getElementById("foinput");
-    if (x.type === "password") {
-      x.type = "text";
-    }
-    else {
-      x.type = "password";
-    }
-  }
-
   function testcompanynum(){
    var num = document.getElementById("foinput");
    var now = num.value;

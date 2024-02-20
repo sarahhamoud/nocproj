@@ -145,3 +145,9 @@ padding-top: 20%;
   margin: 5px;;
 }
 
+@media all and (display-mode: fullscreen) {
+  body {
+    margin: 0;
+    border: 5px solid black;
+  }
+}
