@@ -145,9 +145,13 @@ padding-top: 20%;
   margin: 5px;;
 }
 
-@media all and (display-mode: fullscreen) {
-  body {
-    margin: 0;
-    border: 5px solid black;
+@media (max-width:663px) {
+  .sidebar {
+display: hidden;
+  }
+}
+@media (min-width:664px) {
+  .sidebar {
+display: block;
   }
 }
