@@ -58,10 +58,24 @@ align-items: center;
   button {
     background-color: #cd5829;
     color: rgb(21, 20, 20);
+<<<<<<< HEAD
     width: 135px;
     height: 65px;
     font: 1.1em outset;
     margin-left: 15px;
+||||||| e839fea
+    width: 80%;
+    height: 40%;
+    padding-left: 20px;
+    font: 110% outset;
+    padding: 2%;
+=======
+    width: 70%;
+    height: 40%;
+    padding-left: 20px;
+    font: 110% outset;
+    padding: 2%;
+>>>>>>> origin/master
     font-weight: bold;
    
   }
@@ -71,7 +85,7 @@ align-items: center;
     opacity: 0.5;
   }
   i{
-     size: 48px;
+     size: 40px;
 
 
   }
@@ -95,13 +109,27 @@ align-items: center;
     left: 0;
     top: 0;
     right: 0;
+<<<<<<< HEAD
     width: 100%; /* Full width */
+||||||| e839fea
+    width: 80%; /* Full width */
+=======
+    width: 70%; /* Full width */
+>>>>>>> origin/master
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
 
   }
+<<<<<<< HEAD
   h2,h1{
     font: 1.5em outset;
+||||||| e839fea
+  h2{
+    font:100% outset;
+=======
+  h2{
+    font:110% outset;
+>>>>>>> origin/master
     margin: 0px;
     padding: 0px;
     
@@ -121,11 +149,19 @@ align-items: center;
  .allstatment{
   margin: auto;
   text-align: center;
-  font: 110% sans-serif;
+  font: 100% sans-serif;
  }
 .monthname{
   background-color: rgb(205, 115, 115);
   border-radius: 10%;
+<<<<<<< HEAD
+||||||| e839fea
+  height:20%;
+  width: 50%;
+=======
+  height:20%;
+  width: 40%;
+>>>>>>> origin/master
   contain: content;
   text-align: center;
   align-items: center;
@@ -134,7 +170,7 @@ align-items: center;
 .sheetname{
   border: 0.5em outset ;
   background-color: cloudflare;
-  font:110% solid  ;
+  font:100% solid  ;
 
 }
 .close{
