@@ -1,18 +1,15 @@
-*{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing:border-box;
-    box-sizing: border-box;
+body , html {
+
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 body{
-
-    margin: auto;
+margin: auto;
     flex-wrap: wrap;
     align-items: center;
-    padding: 10PX;
-
-
+    background-color: rgb(74, 72, 72);
 }
 .myVideo {
   position: fixed;
@@ -26,42 +23,47 @@ body{
   color: white;
   align-items: center;
   position: fixed;
-    margin-left: 10%;
+    margin:auto;
 text-align:center;
-width: 80%;
-padding:5%;
+width: 100%;
 border-radius: 10%;
-padding-top: 20%;
+padding-top: 40%;
+align-items: center;
 
 }
 #dod{
     text-align: center;
-   width: 100%;
-   height:auto;
+   width: 90%;
+   height:40px;
    font: 1.5em outset ;
    background-color:white;
+   margin: auto;
 }
 
 .nname{
     text-align: center;
     width: 100%;
     font:1.5em outset;
+    padding: 0px;
 
 }
 .showme{
     text-align: left;
+    font:1.2em outset;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
   /* Set a style for all buttons */
   button {
     background-color: #cd5829;
     color: rgb(21, 20, 20);
-    width: 80%;
-    height: 40%;
-    padding-left: 20px;
-    font: 110% outset;
-    padding: 2%;
+    width: 135px;
+    height: 65px;
+    font: 1.1em outset;
+    margin-left: 15px;
     font-weight: bold;
+   
   }
 
 
@@ -93,14 +95,15 @@ padding-top: 20%;
     left: 0;
     top: 0;
     right: 0;
-    width: 80%; /* Full width */
+    width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
 
   }
-  h2{
-    font:100% outset;
+  h2,h1{
+    font: 1.5em outset;
     margin: 0px;
+    padding: 0px;
     
   }
   /* Center the image and position the close button */
@@ -123,8 +126,6 @@ padding-top: 20%;
 .monthname{
   background-color: rgb(205, 115, 115);
   border-radius: 10%;
-  height:20%;
-  width: 50%;
   contain: content;
   text-align: center;
   align-items: center;
@@ -143,11 +144,4 @@ padding-top: 20%;
   border: 0.5em outset;
   background-color: cloudflare;
   margin: 5px;;
-}
-
-@media all and (display-mode: fullscreen) {
-  body {
-    margin: 0;
-    border: 5px solid black;
-  }
 }
