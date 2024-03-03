@@ -1,0 +1,29 @@
+{
+  "background_color": "#ffffff",
+  "dir": "auto",
+  "display": "standalone",
+  "name": "NOC APP",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "NOC",
+  "start_url": "https://sarahhamoud.github.io/nocproj/",
+  "theme_color": "#ffffff",
+  "description": "NOC APP",
+  "lang": "ar",
+  "display_override": [
+    "browser",
+    "fullscreen",
+    "window-controls-overlay",
+    "minimal-ui",
+    "standalone"
+  ],
+  "categories": [
+    "education",
+    "government",
+    "news",
+    "security"
+  ],
+  "edge_side_panel": {
+    "preferred_width": 0
+  }
+}
