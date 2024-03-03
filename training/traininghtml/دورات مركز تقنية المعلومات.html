@@ -5,27 +5,42 @@
         <meta lang="en">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="مركزية.css">
+        <script>
+            function onm(){
+                 window.location.reload
+             }
+           function newwindow(url){
+                 window.open(url);
+             }
+             function goback(){
+                window.history.back();
+             }
+         </script>
     </head>
-    <body>
+    <body onload="onm()">
+        <div class="allform">
    <div>
     <img src="images/tri.jpg" />
   </div>
-     <h1>دورات وزارة النفط / مركز البحث والتطوير النفطي / 2024 </h1>
+     <h3>دورات وزارة النفط / مركز البحث والتطوير النفطي 2024 </h3>
      <div class="group">
         <p class="month"> كانون الثاني</p>
         <div class="scrollmenu">
-            <a rel="alternate" type="application/pdf" href="نتائج الدورات/دورات وزارة النفط- مركز البحث والتطوير النفطي/نتائج الدورات/1.pdf">(1)  لاتوجد دورات </a>
+            <a onclick="newwindow('نتائج الدورات/دورات وزارة النفط- مركز البحث والتطوير النفطي/1.pdf')">(1)  لاتوجد دورات </a>
         </div>
     </div>
-    <br><br>
-    <div>
-        <br><br>
+    <br><div style="text-align: center;">
+        <a  onclick="goback()" ><button type="buttons" class="back" style="font-size: 1.2em;">رجــوع</button></a>
+      </div>
+       
+          <div>
+              <br>
 <footer>
-<p>Made by: Sarah Hamoud Hussien<br>
+  <p style="font-size: 1em;"> By: Eng.Sarah Hamoud Hussien</p>
 </footer>
-</div>
+</div></div>
 
 </body>
-
+<script src="pdf.min.mjs"></script>
 
 </html>

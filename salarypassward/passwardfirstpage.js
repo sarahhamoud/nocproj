@@ -1,4 +1,9 @@
 
+            function onm(){
+                window.location.reload
+            }
+       
+
   function testcompanynum(){
    var num = document.getElementById("foinput");
    var now = num.value;
@@ -97,6 +102,21 @@ switch(now){
    break;
    case "565807": //احمد محمد يونس
    return "insalaryemppage/565807ادارة الانظمة.html";
+   break;
+   case "11361": //جيا حسن نجم الدين
+   return "insalaryemppage/11361.html";
+   break;
+   case "574002": //الاء حسين محمد
+   return "insalaryemppage/574002.html";
+   break;
+   case "574101": //بناز غازي عبد الرحمن
+   return "insalaryemppage/574101.html";
+   break;
+   case "735603": //بيريفان نور الدين عبد الرحمن
+   return "insalaryemppage/735603.html";
+   break;
+   case "573804": //روشنا ناظم 
+   return "insalaryemppage/573804.html";
    break;
             ///////////////////////////////////قسم الموارد البشرية//////////////////////////////
    

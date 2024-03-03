@@ -1,34 +1,31 @@
-body , html {
-
-  padding: 0;
-  width: 100%;
-  height: 100%;
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing:border-box;
+  box-sizing: border-box;
 }
-
 body{
 margin: auto;
     flex-wrap: wrap;
     align-items: center;
 }
-.myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
+
+
 
 .botn{
   color: white;
   align-items: center;
-  position: fixed;
     margin:auto;
 text-align:center;
 width: 100%;
-border-radius: 10%;
-padding-top: 40%;
+padding-top: 60%;
+padding-bottom: 60% ;
 align-items: center;
-
+background-image: url('star.jpg');
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
 }
 #dod{
     text-align: center;
@@ -55,14 +52,14 @@ align-items: center;
 
   /* Set a style for all buttons */
   button {
-    background-color: #cd5829;
+    background-color: #dde669;
     color: rgb(21, 20, 20);
     width: 140px;
     height: 65px;
     font: 1.1em outset;
     margin-left: 15px;
     font-weight: bold;
-   
+   color: rgb(12, 12, 12);
   }
 
 
@@ -113,14 +110,15 @@ align-items: center;
 
   }
 
-  img{
-    width: 40%;
-    border-radius: 50%;
-  }
+ .img2{
+  width: 100%;
+  height: 200px;
+ }
  .allstatment{
   margin: auto;
   text-align: center;
   font: 110% sans-serif;
+  padding-top: 0px;
  }
 .monthname{
   background-color: rgb(205, 115, 115);
@@ -143,4 +141,23 @@ align-items: center;
   border: 0.5em outset;
   background-color: cloudflare;
   margin: 5px;;
+}
+@media screen and (min-width: 600px){
+  .botn{
+    width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20%;
+  padding-bottom: 30%;
+
+  }
+}
+@media screen and (min-width: 600px){
+   .allstatment{
+    width: 400px;
+    height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
 }
