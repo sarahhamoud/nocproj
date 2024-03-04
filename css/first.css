@@ -80,7 +80,7 @@ button:hover{
         text-decoration: none;
         border-radius: 50%;
         contain: content;
-        padding: 10px;
+        padding: 5px;
       }
       
       /* Add a hover effect if you want */
