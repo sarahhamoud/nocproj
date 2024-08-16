@@ -1,0 +1,164 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing:border-box;
+  box-sizing: border-box;
+}
+body{
+margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.botn{
+  color: white;
+  align-items: center;
+    margin:auto;
+text-align:center;
+width: 100%;
+height: 100%;
+padding-top: 30%;
+padding-bottom: 70% ;
+align-items: center;
+background-image: url('star.jpg');
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+#dod{
+    text-align: center;
+   width: 90%;
+   height:40px;
+   font: 1.5em outset ;
+   background-color:white;
+   margin: auto;
+}
+
+.nname{
+    text-align: center;
+    width: 100%;
+    font:1.5em outset;
+    padding: 0px;
+
+}
+.showme{
+    text-align: left;
+    font:1.2em outset;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+  /* Set a style for all buttons */
+  button {
+    background-color: #dde669;
+    color: rgb(21, 20, 20);
+    width: 40%;
+    height: 65px;
+    font: 1.1em outset;
+    margin-left: 15px;
+    font-weight: bold;
+   color: rgb(12, 12, 12);
+  }
+
+
+  button:hover {
+    opacity: 0.5;
+  }
+  i{
+     size: 48px;
+
+
+  }
+  .modal{
+    position: fixed;
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(105, 192, 213);
+    border-radius: 20PX;
+
+
+  }
+
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+
+  }
+  h2,h1{
+    font: 1.4em outset;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  /* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: fixed;
+
+  }
+
+ .img2{
+  width: 100%;
+  height: 200px;
+ }
+ .allstatment{
+  margin: auto;
+  text-align: center;
+  font: 110% sans-serif;
+  padding-top: 0px;
+ }
+.monthname{
+  background-color: rgb(205, 115, 115);
+  border-radius: 10%;
+  contain: content;
+  text-align: center;
+  align-items: center;
+  margin-left: 10%;
+}
+.sheetname{
+  border: 0.5em outset ;
+  background-color: cloudflare;
+  font:110% solid  ;
+
+}
+.close{
+  position: fixed;
+}
+.divbox{
+  border: 0.5em outset;
+  background-color: cloudflare;
+  margin: 5px;;
+}
+@media screen and (min-width: 600px){
+  .botn{
+    width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20%;
+  padding-bottom: 30%;
+
+  }
+}
+@media screen and (min-width: 600px){
+   .allstatment{
+    width: 400px;
+    height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
+}

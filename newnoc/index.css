@@ -1,0 +1,77 @@
+ 
+ *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    box-sizing: border-box;
+  
+  }
+  body{
+    flex-wrap: wrap;
+padding: 5px;
+  
+
+
+  }
+
+ .sid{
+text-align: center;
+direction: rtl;
+contain: content;
+
+ }
+
+ .btn {
+  background-color: cadetblue;
+  border: none;
+  color: rgb(195, 68, 68);
+  font-size: 16px;
+  cursor: pointer;
+  height: 10px;
+  width: 48;
+}
+button{
+  width: 120px;
+  height: 60px;
+}
+  .top{
+  
+   border: 20px;
+  
+  }
+  a:link{
+    color: red;
+    text-decoration: none;
+  }
+
+  .topname{
+    padding: 5px;
+   text-align: center;
+    font-weight: bold;
+    background-color: cadetblue;
+  
+}
+h2{
+  text-align: center;
+ font-size: 100% ;
+ font-weight:bold ;
+ background-color: cadetblue;
+ padding: 5px;
+}
+
+p{
+  text-align: center;
+    font-size: 90%;
+    font-weight: bold;
+   
+}
+@media screen and (min-width: 600px){
+   body{
+   margin-left: 35%;
+   margin-right:35%;
+ 
+
+
+   }
+  
+  }

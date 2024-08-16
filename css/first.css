@@ -1,0 +1,141 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing:border-box;
+  box-sizing: border-box;
+}
+body{
+   
+    flex-wrap: wrap;
+    
+}
+#all{
+    margin: auto;
+    text-align: center;
+    padding: auto;
+    height:auto;
+    width: 100%;
+    border: 0.5rem snow seagreen;
+    background-color: rgb(203, 218, 170);
+   
+
+    
+}
+
+
+img{
+   width: 60%;
+   height: auto ;
+border:  1px;;
+image-resolution: 100%;
+border-radius: 50%;
+
+}
+
+    
+
+button{
+    height: auto ;
+    width:80%;
+    background-color: rgb(136, 173, 58);
+    border:0.5vm outset;
+    border-color: brown;
+    border-radius: 40px;
+    
+}
+button:hover{
+  opacity: 0.7;
+}
+    .topn{
+        text-align: center;
+        text-decoration: solid;
+        color: rgb(32, 27, 17);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 110%;
+        font-weight:bold;
+    }
+    .top{
+       
+       
+        margin: 0px;
+        text-align: center;
+    
+    }
+    .allbutton{
+       margin: auto; 
+       width: 100%;
+      padding: 0px;
+    }
+    header{
+        text-align: center;
+        padding: auto;
+        margin: 5px;
+    }
+    /* Style all font awesome icons */
+    .fa {
+    
+        font-size: 0.5vm;
+        width: 25px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        contain: content;
+        padding: 5px;
+      }
+      
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      /* Set a specific color for each brand */
+      
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+      
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      .fa-snapchat-ghost {
+        background: #fffc00;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+      footer {
+        text-align: center;
+        padding: 0px;
+        color: rgb(56, 52, 52);
+      border-top:solid;
+      border-color: rgb(136, 173, 58);
+      }
+      @media screen and (min-width: 600px){
+        #all{
+          width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+      }
